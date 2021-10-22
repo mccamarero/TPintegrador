@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+   
+   
+}
+
+form{
+    align-self: flex-end;
+}
+
+.contenedor-logo{
+    display: flex;
+    padding: 5px:
+    height: 70px;
+    background-color: rgb(54, 52, 52);
+}
+
+.logo{
+height: 70px;
+width: 120px;
+margin-left: 25px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 52, 52);
+    margin-left: none;
+    margin-right: none;
+}
+
+.contenedor-nav{
+    margin-right: 70px;
+}
+
+.carousel{
+    position: relative;
+    margin-left: -15px;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+.carousel-caption{
+color: white;
+text-decoration-style: solid;
+font-weight: 300px;
+font-size: x-large;
+display: flex;
+position: relative;
+flex-direction: column;
+top: 350px;
+margin-left: 700px;
+background-color: none;
+text-align: right;
+width: 400px;
+height: 200px;
+}
+
+.texto{
+font-weight: 90px;
+font-size: large;
+color: white;
+   
+}
+
+.d-flex{
+  
+caret-color: white;
+text-decoration-style: solid;
+font-weight: 400px;
+font-size: x-large;
+border-radius: 15px;
+border: 2px solid white;
+border-radius: 10px;
+}
+
+.btn1{
+
+background-color: transparent;
+
+}
+
+.btn2{
+    
+}
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+
+
+.card-img-top{
+    height: 300px;
+    width: 231px;
+}
+
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: -10px;
+    margin-right: auto;
+}
+
+#overlay{
+ 
+    position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.8);
+        z-index: 2;
+}
+
+
+.oradores{
+    color: rgb(139, 134, 134);
+    font-size: small;
+    text-align: center; 
+    margin-left: auto
+    margin-right:auto;
+}
+
+.oradores2{
+    font-size: x-large; white;
+    font-weight: 500;
+    text-align: center;  
+}
+
+
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.card-group-ult{
+   display: flex;
+   flex-direction: row;
+ 
+   
+
+
+}
+
+.col{
+    width: 700px;
+    display: block;
+    margin-right: none;
+    margin-left: none;
+    text-align: left;
+    margin-right: 0%;
+}
+
+.card-honolulu{
+    width: 700px;    
+    height: 500px;
+    border-top: grey;
+    margin-right: none;
+    margin-left: none;
+
+}
+
+h5{
+padding-top: 20px;
+padding-left: 5px;
+text-align: left;
+text-decoration-color: white;
+font-size: xx-large
+}
+
+#texto-invitacion{
+margin-top: 20px;
+margin-right: none;
+margin-left: none;
+
+text-decoration-color: white;
+font-size: small;
+text-align: left;
+    
+}
+
+.boton-conocemas{
+    margin-top: 100px;
+    font-size: small;
+    
+}
+
+#fondo{
+width: 100vw;
+height: 90px;
+background-color: #959597;
+}
+
+#contenedor-footer{
+    max-width: 100%;
+    margin-left: -100px;
+    margin-right: none;
+    padding-right: 50px;
+}
+
+
+
+.oradores2{
+    font-size: large;
+    
+}
+
+
+
+
+.form-control{
+margin-left: 440px;
+}
+
+.form-nombre{
+    width: 350px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: lightgrey;
+    margin-left: 110px;
+    font-size: medium;
+    text-decoration-color: grey;
+    }
+
+    .form-apellido{
+        width: 350px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 4px;
+        border-color: lightgrey;
+        margin-left: 15px;
+        font-size: medium;
+        text-decoration-color: grey;
+        }
+
+.exampleFormControlTextarea1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 330px;
+    padding: none;
+}
+
+
+.text-secondary{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 330px;
+}
+
+.boton-enviar{
+    width: 705px;
+    align-content: center;
+    caret-color: white;
+    align-self: center;
+    border: none;
+    border-radius: 2px;
+    margin-left: 330px;
+    margin-right: auto;
+    
+}
+
+footer {
+    display: flex;
+    position: relative;
+    margin-bottom: opx;
+    padding-top: 25px;
+    text-align: vertical;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(60, 36, 128);
+    color: white;
+    height: 70px;
+
+
+/*pseudo-elementos*/
+
